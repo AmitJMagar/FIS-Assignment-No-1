@@ -1,0 +1,118 @@
+--------------- States Visited at Depth 0 ---------------
+ Arad
+--------------- States Visited at Depth 1 ---------------
+ Arad
+   Sibiu
+   Timisoara
+   Zerind
+--------------- States Visited at Depth 2 ---------------
+ Arad
+   Sibiu
+     Fagaras
+     RimnicuVilcea
+     Oradea
+   Timisoara
+     Lugoj
+   Zerind
+     Oradea
+--------------- States Visited at Depth 3 ---------------
+ Arad
+   Sibiu
+     Fagaras
+       Bucharest
+--  Solution for: Arad to Bucharest-------------------
+['Arad', 'Sibiu', 'Fagaras', 'Bucharest']
+Function Returned List containing  ['Arad', 'Sibiu', 'Fagaras', 'Bucharest']
+--------------- States Visited at Depth 0 ---------------
+ Urziceni
+--------------- States Visited at Depth 1 ---------------
+ Urziceni
+   Vaslui
+   Hirsova
+   Bucharest
+--------------- States Visited at Depth 2 ---------------
+ Urziceni
+   Vaslui
+     Iasi
+   Hirsova
+     Eforie
+   Bucharest
+     Pitesti
+     Giurgiu
+     Fagaras
+--------------- States Visited at Depth 3 ---------------
+ Urziceni
+   Vaslui
+     Iasi
+       Neamt
+   Hirsova
+     Eforie
+   Bucharest
+     Pitesti
+       RimnicuVilcea
+       Craiova
+     Giurgiu
+     Fagaras
+       Sibiu
+--  Solution for: Urziceni to Sibiu-------------------
+['Urziceni', 'Bucharest', 'Fagaras', 'Sibiu']
+Function Returned List containing  ['Urziceni', 'Bucharest', 'Fagaras', 'Sibiu']
+--------------- States Visited at Depth 0 ---------------
+ Eforie
+--------------- States Visited at Depth 1 ---------------
+ Eforie
+   Hirsova
+--------------- States Visited at Depth 2 ---------------
+ Eforie
+   Hirsova
+     Urziceni
+--------------- States Visited at Depth 3 ---------------
+ Eforie
+   Hirsova
+     Urziceni
+       Vaslui
+       Bucharest
+--------------- States Visited at Depth 4 ---------------
+ Eforie
+   Hirsova
+     Urziceni
+       Vaslui
+         Iasi
+       Bucharest
+         Pitesti
+         Giurgiu
+         Fagaras
+--------------- States Visited at Depth 5 ---------------
+ Eforie
+   Hirsova
+     Urziceni
+       Vaslui
+         Iasi
+           Neamt
+       Bucharest
+         Pitesti
+           RimnicuVilcea
+           Craiova
+         Giurgiu
+         Fagaras
+           Sibiu
+--------------- States Visited at Depth 6 ---------------
+ Eforie
+   Hirsova
+     Urziceni
+       Vaslui
+         Iasi
+           Neamt
+       Bucharest
+         Pitesti
+           RimnicuVilcea
+           Craiova
+             Drobeta
+         Giurgiu
+         Fagaras
+           Sibiu
+             Arad
+             Oradea
+--  Solution for: Eforie to Oradea-------------------
+['Eforie', 'Hirsova', 'Urziceni', 'Bucharest', 'Fagaras', 'Sibiu', 'Oradea']
+Function Returned List containing  ['Eforie', 'Hirsova', 'Urziceni', 'Bucharest', 'Fagaras', 'Sibiu', 'Oradea']
