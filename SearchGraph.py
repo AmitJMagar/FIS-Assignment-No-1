@@ -15,11 +15,6 @@ import sys
 # between locations in a graph. In the graph to be searched, nodes have names
 # (e.g. city names for a map).
 #
-# An undirected graph is passed in as a text file (first command line argument).
-#
-# Usage: python SearchGraph.py graphFile startLocation endLocation
-#
-# Author: Richard Zanibbi, RIT, Nov. 2011
 def read_graph(filename):
     """Read in edges of a graph represented one per line,
         using the format: srcStateName destStateName"""
